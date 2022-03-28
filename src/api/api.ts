@@ -1,4 +1,4 @@
-import { nedsAPI } from './helpers';
+import {nedsAPI} from './helpers';
 import {RacingData} from '_types';
 
 export const getNextRacing = async (): Promise<RacingData> => {
